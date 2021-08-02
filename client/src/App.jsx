@@ -9,9 +9,6 @@ function App() {
 				<Route exact path="/">
 					<About />
 				</Route>
-				<Route exact path="/info">
-					<div>qwwert</div>
-				</Route>
 			</Switch>
 		</Router>
 	);

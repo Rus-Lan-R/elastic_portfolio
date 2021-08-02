@@ -43,14 +43,6 @@ export default function Header() {
 					history.push("/");
 				},
 			},
-			{
-				text: "Personal Info",
-				href: "/info",
-				onClick: (e) => {
-					e.preventDefault();
-					history.push("/info");
-				},
-			},
 		];
 
 		return (
